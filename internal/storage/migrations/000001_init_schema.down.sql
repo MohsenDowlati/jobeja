@@ -1,0 +1,7 @@
+DROP INDEX IF EXISTS idx_tasks_scheduler;
+DROP TABLE IF EXISTS tasks;
+
+DROP TABLE IF EXISTS users;
+
+DROP TYPE IF EXISTS task_status;
+DROP TYPE IF EXISTS task_type;

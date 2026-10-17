@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS dispatch_outbox;
+DROP TABLE IF EXISTS task_runs;
+ALTER TABLE tasks DROP COLUMN IF EXISTS timezone;
